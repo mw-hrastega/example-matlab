@@ -19,4 +19,4 @@ runner.addPlugin(p)
 % Run the tests and fail the build if any of the tests fails 
 results = runner.run(suite);  
 nfailed = nnz([results.Failed]);
-assert(nfailed == 0, [num2str(nfailed) ' test(s) failed.'])
+assert(nfailed == 0,[num2str(nfailed) ' test(s) failed.'])
