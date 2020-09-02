@@ -58,6 +58,14 @@ jobs:
           file: coverage.xml
 ```
 
+### Travis CI
+
+```yml
+language: matlab
+script: matlab -batch 'runMyTests'
+after_success: bash <(curl -s https://codecov.io/bash)
+```
+
 ## Caveats
 * Installing MATLAB on a cloud-based agent is supported only for public projects.
 * If you use a private repository, you must find your repository token at Codecov and use it for uploading reports.
