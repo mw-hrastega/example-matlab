@@ -3,7 +3,7 @@
 
 Different continuous integration (CI) platforms enable you to produce code coverage reports for your MATLAB&reg; source code. This guide shows how to run MATLAB tests, produce a code coverage report, and upload the report to Codecov. 
 
-You can use the provided MATLAB code and build configurations by forking this repository. The repository includes these files:
+You can use the provided MATLAB code and pipeline configurations by forking this repository. The repository includes these files:
 
 | **File Path**                        | **Description**                                                                                                                                       |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
