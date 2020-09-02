@@ -10,7 +10,8 @@ You can use the provided MATLAB code and build configurations by forking this re
 | `coverage-example/quadraticSolver.m` | The `quadraticSolver` function solves quadratic equations.                                                                                            |
 | `coverage-example/SolverTest.m`      | The `SolverTest` class tests the `quadraticSolver` function.                                                                                          |
 | `azure-pipelines.yml`                | The `azure-pipelines.yml` file defines the pipeline that runs on [Azure&reg; DevOps](https://marketplace.visualstudio.com/items?itemName=MathWorks.matlab-azure-devops-extension). |
-| `.circleci/config.yml`               | The `config.yml` file defines the pipeline that runs on [CircleCI&reg;](https://circleci.com/orbs/registry/orb/mathworks/matlab).    
+| `.circleci/config.yml`               | The `config.yml` file defines the pipeline that runs on [CircleCI&reg;](https://circleci.com/orbs/registry/orb/mathworks/matlab).  
+| `.travis.yml`               | The `config.yml` file defines the pipeline that runs on [Travis CI](https://docs.travis-ci.com/user/languages/matlab/). 
 
 ## Produce and Publish Coverage Reports
 
