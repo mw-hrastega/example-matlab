@@ -3,10 +3,12 @@ import matlab.unittest.Verbosity
 import matlab.unittest.plugins.CodeCoveragePlugin
 import matlab.unittest.plugins.codecoverage.CoberturaFormat
  
+% Add the source folder to the MATLAB search path 
+addpath('source') 
+ 
 % Create a test suite 
 suite = testsuite('tests','IncludeSubfolders',true);
-{suite.Name}'
- 
+
 % Create a test runner that displays test run progress at the matlab.unittest.Verbosity.Detailed level
 runner = TestRunner.withTextOutput('OutputDetail',Verbosity.Detailed); 
 
