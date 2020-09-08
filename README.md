@@ -5,8 +5,8 @@ This guide shows how to run MATLAB&reg; tests, produce a code coverage report, a
 
 | **File Path**                        | **Description**                                                                                                                                       |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `coverage-example/quadraticSolver.m` | The `quadraticSolver` function solves quadratic equations.                                                                                            |
-| `coverage-example/SolverTest.m`      | The `SolverTest` class tests the `quadraticSolver` function.                                                                                          |
+| `source/quadraticSolver.m` | The `quadraticSolver` function solves quadratic equations.                                                                                            |
+| `tests/SolverTest.m`      | The `SolverTest` class tests the `quadraticSolver` function.                                                                                          |
 | `runMyTests.m`      | The `runMyTests` script creates a test suite and a test runner that outputs a Cobertura code coverage report.                                                                                          |
 | `azure-pipelines.yml`                | The `azure-pipelines.yml` file defines the pipeline that runs on [Azure&reg; DevOps](https://marketplace.visualstudio.com/items?itemName=MathWorks.matlab-azure-devops-extension). |
 | `.circleci/config.yml`               | The `config.yml` file defines the pipeline that runs on [CircleCI&reg;](https://circleci.com/orbs/registry/orb/mathworks/matlab).
