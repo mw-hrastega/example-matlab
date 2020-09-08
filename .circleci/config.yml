@@ -9,7 +9,8 @@ jobs:
     steps:
       - checkout
       - matlab/install
-      - matlab/run-tests: 
+      - matlab/run-tests:
+          source-folder: source
           code-coverage-cobertura: coverage.xml
       - codecov/upload: 
           file: coverage.xml
