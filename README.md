@@ -30,11 +30,10 @@ steps:
   - task: InstallMATLAB@0
   - task: RunMATLABTests@0
     inputs:
+      sourceFolder: source
       codeCoverageCobertura: coverage.xml
   - script: bash <(curl -s https://codecov.io/bash)
 ```
-
-
 
 ### CircleCI
 
@@ -50,7 +49,8 @@ jobs:
     steps:
       - checkout
       - matlab/install
-      - matlab/run-tests: 
+      - matlab/run-tests:
+          source-folder: source
           code-coverage-cobertura: coverage.xml
       - codecov/upload: 
           file: coverage.xml
