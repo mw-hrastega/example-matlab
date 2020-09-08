@@ -65,7 +65,7 @@ after_success: bash <(curl -s https://codecov.io/bash)
 ```
 
 ## Caveats
-* Currently, MATLAB builds on CircleCI and Travis CI arevailable only for public projects.
+* Currently, MATLAB builds on CircleCI and Travis CI are available only for public projects. MATLAB builds on Azure DevOps that use Microsoft&reg;-hosted agents are also available only for public projects.
 
 ## Links
 - [Community Boards](https://community.codecov.io)
