@@ -1,5 +1,4 @@
 [![codecov](https://codecov.io/gh/mw-hrastega/example-matlab/branch/master/graph/badge.svg)](https://codecov.io/gh/mw-hrastega/example-matlab)
-
 # [Codecov](https://codecov.io) MATLAB Example
 
 
