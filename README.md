@@ -18,7 +18,7 @@ Use these example pipeline YAMLs to:
 
 1) Install the latest MATLAB release on a Linux&reg;-based build agent.
 2) Run all MATLAB tests in the root of your repository, including its subfolders.
-3) Produce a code coverage report in Cobertura XML format.
+3) Produce a code coverage report in Cobertura XML format for the `source` folder.
 4) Upload the produced artifact to Codecov.
 
 ### Azure DevOps
