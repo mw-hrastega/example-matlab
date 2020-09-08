@@ -5,6 +5,7 @@ import matlab.unittest.plugins.codecoverage.CoberturaFormat
  
 % Create a test suite 
 suite = testsuite('tests','IncludeSubfolders',true);
+{suite.Name}'
  
 % Create a test runner that displays test run progress at the matlab.unittest.Verbosity.Detailed level
 runner = TestRunner.withTextOutput('OutputDetail',Verbosity.Detailed); 
