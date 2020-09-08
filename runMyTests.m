@@ -4,13 +4,13 @@ import matlab.unittest.plugins.CodeCoveragePlugin
 import matlab.unittest.plugins.codecoverage.CoberturaFormat
  
 % Create a test suite 
-suite = testsuite(pwd,'IncludeSubfolders',true);
+suite = testsuite('tests','IncludeSubfolders',true);
  
 % Create a test runner that displays test run progress at the matlab.unittest.Verbosity.Detailed level
 runner = TestRunner.withTextOutput('OutputDetail',Verbosity.Detailed); 
 
 % Create a CodeCoveragePlugin instance and add it to the test runner
-sourceFolder = pwd;
+sourceFolder = 'source';
 reportFile = 'cobertura.xml';
 reportFormat = CoberturaFormat(reportFile);
 p = CodeCoveragePlugin.forFolder(sourceFolder,'IncludingSubfolders', true,'Producing',reportFormat);
