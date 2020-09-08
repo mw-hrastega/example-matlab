@@ -1,9 +1,7 @@
 # [Codecov](https://codecov.io) MATLAB Example
 
 
-Different continuous integration (CI) platforms enable you to produce code coverage reports for your MATLAB&reg; source code. This guide shows how to run MATLAB tests, produce a code coverage report, and upload the report to Codecov. 
-
-You can use the provided MATLAB code and pipeline configurations by forking this repository. The repository includes these files:
+This guide shows how to run MATLAB&reg; tests, produce a code coverage report, and upload the report to Codecov. The repository includes these files.
 
 | **File Path**                        | **Description**                                                                                                                                       |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -67,7 +65,7 @@ after_success: bash <(curl -s https://codecov.io/bash)
 ```
 
 ## Caveats
-* Currently, MATLAB builds are available only for public projects.
+* Currently, MATLAB builds on CircleCI and Travis CI arevailable only for public projects.
 
 ## Links
 - [Community Boards](https://community.codecov.io)
