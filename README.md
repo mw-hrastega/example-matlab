@@ -12,7 +12,7 @@ This guide shows how to run MATLAB&reg; tests, produce a code coverage report, a
 | `runMyTests.m`      | The `runMyTests` script creates a test suite and a test runner that outputs a Cobertura code coverage report.                                                                                          |
 | `azure-pipelines.yml`                | The `azure-pipelines.yml` file defines the pipeline that runs on [Azure&reg; DevOps](https://marketplace.visualstudio.com/items?itemName=MathWorks.matlab-azure-devops-extension). |
 | `.circleci/config.yml`               | The `config.yml` file defines the pipeline that runs on [CircleCI&reg;](https://circleci.com/orbs/registry/orb/mathworks/matlab).
-| `.travis.yml`               | The `config.yml` file defines the pipeline that runs on [Travis CI](https://docs.travis-ci.com/user/languages/matlab/). 
+| `.travis.yml`               | The `.travis.yml` file defines the pipeline that runs on [Travis CI](https://docs.travis-ci.com/user/languages/matlab/). 
 
 ## Produce and Publish Coverage Reports
 
